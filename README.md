@@ -4,6 +4,8 @@
   
   https://zenodo.org/record/3565570#.XepR9ZNKjVo
   
+  https://rrasheed.github.io/cmsfrauddetection/
+  
 ## Abstract
 <break>
 Every day, patients seek medical counsel and assistance from physicians, but access to affordable healthcare is still a pressing issue. For those who qualify, the United States government provides financial support in the form of its Medicare and Medicaid programs. These programs allow citizens to receive quality care, and physicians are paid from the government's pocket. Since physicians are not billing the patient directly, some have resorted to committing fraud to get more money. Large abnormalities can easily be detected, but many fraudulent physicians are difficult to detect since they could identically resemble normal physicians. Leveraging publically available data, anomaly detection systems can be developed to point out fraudulent physicians while working under a highly imbalanced class setting. With only 0.017% as the fraudulent class size, a deep anomaly detection system is developed to understand the minute differences between the two classes and gain a good understanding of the overall feature space. The model of choice is an Autoencoder since it is commonly used for anomaly detection problems due to its ability to understand the fundamental components of the input data and be able to reconstruct the data using these components. Three versions that differed in the number of hidden layers were compared to find the best network architecture for detecting fraudulent physicians. The shallow network, which only contained one hidden layer between the input and output layers, was the best model because it detected the most fraudulent cases maintaining the least number of false negatives.
